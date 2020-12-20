@@ -34,8 +34,11 @@ create the database and runs the database migrations and seed file.
 ```
 mix ecto.setup  
 ```
+
 Start app 
 ```
+cd assets && npm install
+cd ..
 mix phx.server
 ```
 Now you can visit localhost:4000 from your browser.
